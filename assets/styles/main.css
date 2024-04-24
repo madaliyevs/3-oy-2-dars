@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    padding-bottom: 223px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 0;
+    margin-bottom: 30px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+nav ul li {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 1px;
+    color: rgba(158, 154, 168, 1);
+    transition: 0.4s ease-in-out;
+}
+
+nav ul li:hover{
+    transform: scale(1.5);
+}
+nav .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+nav button {
+    padding: 9px 24px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22.5px;
+    background: #2BD0D0;
+    color: #fff;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+.showcase {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.showcase>div {
+    flex: 1;
+}
+.showcase img {
+    width: 100%;
+}
+.showcase h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: #34313D;
+    max-width: 865px;
+}
+.showcase p {
+    padding: 35px 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #9E9AA8;
+}
+.btn {
+    padding: 14px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background: #2BD0D0;
+}
+main section { 
+    position: relative; 
+    padding: 87px 0; 
+    background: #543030; 
+    color: #fff; 
+    text-align: center; 
+} 
+ 
+main form { 
+    position: absolute; 
+    top: 0%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 15px; 
+    padding: 52px 54px; 
+    background: url('../image/Path\ 2.png'); 
+    width: 80%; 
+    display: flex; 
+    align-items: center; 
+    gap: 24px; 
+    color: black;
+} 
+ 
+main form input { 
+    padding: 14px 32px; 
+    width: 80%; 
+    border-radius: 5px; 
+    border: 1px solid transparent; 
+} 
+ 
+main form button { 
+    padding: 18px 40px; 
+    background: #2BD0D0; 
+    color: #fff; 
+    border-radius: 5px; 
+    height: 100%; 
+    border: 1px solid transparent; 
+    font-weight: 700; 
+    max-height: 52px; 
+} 
+ 
+main h1 { 
+    font-size: 40px; 
+    margin-top: 11px; 
+}
+footer {
+    background: #000;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+.nav-logo a {
+    transition: 0.4s ease-in-out;
+}
+.nav-logo a:hover {
+    transform: scale(1.5);
+
+} 
